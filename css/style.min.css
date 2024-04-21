@@ -1,0 +1,565 @@
+#main,#main .intro2,#main .text-holder,.dflex,header {
+    display: flex;
+    display: flex
+}
+
+#about,#projects,#services {
+    background-color: #fff
+}
+
+#skills .holder .skill p,body {
+    font-family: Poppins,sans-serif
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth
+}
+
+@keyframes textin {
+    0% {
+        transform: translateX(-300px)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+.dflex {
+    flex-wrap: wrap
+}
+
+body {
+    background-color: #111;
+    box-sizing: border-box
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background-color: #111
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #e70139
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+#footer .wrapper .copyright a:hover,a:hover {
+    color: #e70139;
+    transition: .4s ease-in-out
+}
+
+ul {
+    list-style-type: none
+}
+
+header {
+    width: 80%;
+    padding: 20px 0;
+    left: 10%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 10
+}
+
+header #logo {
+    width: 20%
+}
+
+header #logo img {
+    width: 130px
+}
+
+#skills .holder #second,header #nav {
+    width: 80%
+}
+
+header #nav ul {
+    text-align: right
+}
+
+header #nav ul li {
+    display: inline;
+    padding-left: 7px;
+    font-size: 22px;
+    text-transform: uppercase
+}
+
+#main {
+    background: url(../img/background.jpg) center/cover fixed;
+    height: 800px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row
+}
+
+#main .text-holder {
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    left: 4%;
+    position: relative;
+    padding-top: 100px
+}
+
+#main .img-holder {
+    height: 500px;
+    width: 500px;
+    padding-top: 120px
+}
+
+#main .img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    height: 500px;
+    width: 500px
+}
+
+#main .text-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    width: 700px;
+    animation-name: textin;
+    animation-duration: 1s
+}
+
+#about,#about .container #info #picture figure img,#contact .container,#main .intro,#main .intro3,#skills .holder #first {
+    width: 100%
+}
+
+#main .text {
+    font-size: 35px;
+    font-weight: 500
+}
+
+#main .text2 {
+    font-size: 70px;
+    font-weight: 600;
+    color: #e70139!important
+}
+
+#main .intro2 {
+    flex: 1
+}
+
+#main .text3 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 15px
+}
+
+#about {
+    padding: 35px 0
+}
+
+#about .container {
+    width: 90%;
+    margin: 0 auto
+}
+
+#about .container .title,#projects .wrapper h2,#services .container h2 {
+    color: #e70139;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 900
+}
+
+#about .container .underline {
+    width: 90%;
+    margin: 10px auto;
+    background-color: #111;
+    border: .5px solid #111
+}
+
+#about .container .desc {
+    color: #111;
+    width: 80%;
+    margin: 30px auto 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px
+}
+
+#about .container .desc span {
+    color: #e70139;
+    font-weight: 600
+}
+
+#about .container .desc1 {
+    display: none
+}
+
+#about .container #info {
+    width: 90%;
+    background-color: #222;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 35px auto 0;
+    display: flex;
+    flex-wrap: wrap
+}
+
+#about .container #info #personal {
+    margin-left: 300px;
+    margin-top: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column
+}
+
+#about .container #info #personal p {
+    text-align: left;
+    font-size: 33px;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 500
+}
+
+#about .container #info #personal p span {
+    color: #e70139;
+    font-weight: 700
+}
+
+#about .container #info #picture {
+    width: 25%;
+    padding-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center
+}
+
+#about .container #info #picture figure {
+    position: relative
+}
+
+#about .container #info #picture figure::before {
+    position: absolute;
+    content: "";
+    top: -15px;
+    left: -15px;
+    width: 30%;
+    height: 40%;
+    border-left: 3px solid #e70139;
+    border-top: 3px solid #e70139
+}
+
+#about .container #info #picture figure::after {
+    position: absolute;
+    content: "";
+    bottom: -15px;
+    right: -15px;
+    width: 30%;
+    height: 40%;
+    border-right: 3px solid #e70139;
+    border-bottom: 3px solid #e70139
+}
+
+#skills {
+    background-color: #222;
+    padding: 50px 0 70px
+}
+
+#skills .holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto
+}
+
+#skills .holder .skill {
+    margin-top: 25px;
+    border-radius: 20px;
+    background: linear-gradient(90deg,#222 8%,#e70139 100%);
+    height: 50px
+}
+
+#contact,#footer,#numbers {
+    background-color: #111
+}
+
+#skills .holder .skill p {
+    padding: 15px;
+    text-align: left;
+    color: #fff;
+    font-weight: 700
+}
+
+#skills .holder #third {
+    width: 50%
+}
+
+#skills .holder #fourth {
+    width: 85%
+}
+
+#services {
+    padding: 50px 0;
+    width: 100%
+}
+
+#services .container {
+    width: 80%;
+    margin: 0 auto
+}
+
+#projects .wrapper .underline,#services .container .underline {
+    width: 100%;
+    margin: 10px auto;
+    background-color: #111;
+    border: .5px solid #111
+}
+
+#services .container #services-wrap {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch
+}
+
+#services .container #services-wrap .service {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center
+}
+
+#services .container #services-wrap .service i {
+    font-size: 50px
+}
+
+#services .container #services-wrap .service h3 {
+    color: #e70139;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 700
+}
+
+#services .container #services-wrap .service p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #111;
+    font-size: 16px;
+    font-weight: 700
+}
+
+#numbers {
+    padding: 90px 0
+}
+
+#numbers .container {
+    width: 75%;
+    margin: 0 auto
+}
+
+#numbers .container #numb-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+#numbers .container #numb-wrap .numb {
+    margin-top: 5px;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column
+}
+
+#numbers .container #numb-wrap .numb i {
+    font-size: 50px;
+    padding-bottom: 3px
+}
+
+#numbers .container #numb-wrap .numb h2 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 35px
+}
+
+#numbers .container #numb-wrap .numb h3 {
+    color: #afafaf;
+    font-size: 20px;
+    letter-spacing: 1px
+}
+
+#projects {
+    color: #e70139;
+    padding: 50px 0
+}
+
+#projects .wrapper {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto
+}
+
+#projects .wrapper .container {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+#projects .wrapper .container .project {
+    width: 45%;
+    position: relative
+}
+
+#projects .wrapper .container .project img {
+    width: 100%;
+    transition: .4s ease-in;
+    border-radius: 10px
+}
+
+#projects .wrapper .container .project img:hover {
+    transform: scale(1.03)
+}
+
+#projects .wrapper .container .project h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+    color: #e70139
+}
+
+#projects .wrapper .container .project h4 {
+    font-size: 20px;
+    color: #111;
+    text-align: center;
+    font-style: italic
+}
+
+#contact {
+    padding: 30px 0
+}
+
+#contact .container h2 {
+    color: #e70139;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 40px
+}
+
+#contact .container .underline {
+    width: 95%;
+    margin: 10px auto;
+    background-color: #e70139;
+    border: .5px solid #e70139
+}
+
+#contact .container #contact-wrap {
+    width: 90;
+    justify-content: center;
+    display: flex;
+    align-items: center
+}
+
+#contact .container #contact-wrap #form {
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+#contact .container #contact-wrap #form input {
+    width: 100%;
+    background-color: #222;
+    border: none;
+    padding: 15px 5px;
+    outline: 0;
+    margin-bottom: 5px
+}
+
+#contact .container #contact-wrap #form textarea {
+    width: 100%;
+    border: none;
+    padding: 10px 5px;
+    background-color: #222;
+    color: #e70139
+}
+
+#contact .container #contact-wrap #form .btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #222;
+    color: #e70139;
+    border: none;
+    padding: 18px 20px;
+    margin: 10px auto;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer
+}
+
+#contact .container #contact-wrap #form .btn:hover {
+    background-color: #e70139;
+    color: #fff
+}
+
+#footer {
+    padding: 15px 0;
+    color: #fff;
+    display: flex
+}
+
+#footer .wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+#footer .wrapper .copyright {
+    font-family: 'Poppins' sans-serif;
+    font-weight: 700
+}
+
+#footer .wrapper p {
+    font-size: 22px;
+    padding: 10px 0
+}
+
+#footer .wrapper .links ul li {
+    display: inline
+}
+
+#footer .wrapper .links ul li a {
+    padding-left: 25px
+}
+
+#footer .wrapper .links ul li a i {
+    font-size: 25px
+}

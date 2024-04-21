@@ -1,0 +1,379 @@
+@media screen and (max-width: 1025px) {
+    #main .img,#main .img-holder {
+        height:400px;
+        width: 400px
+    }
+
+    #about .container .desc {
+        font-size: 18px;
+        width: 95%
+    }
+
+    #about .container .underline {
+        width: 95%
+    }
+
+    #about .container #info {
+        width: 100%;
+        margin-top: 30px
+    }
+
+    #about .container #info #personal {
+        margin-top: 30px;
+        width: 45%
+    }
+
+    #about .container #info #personal p {
+        font-size: 20px
+    }
+}
+
+@media screen and (max-width: 1284px) {
+    #about .container #info #personal {
+        width:44%
+    }
+
+    #about .container #info #personal p {
+        font-size: 22px
+    }
+}
+
+@media screen and (max-width: 921px) {
+    #main .img,#main .img-holder {
+        height:400px;
+        width: 400px
+    }
+
+    #main .text-holder .text2 {
+        font-size: 60px
+    }
+
+    #main .text-holder .text3 {
+        font-size: 23px
+    }
+
+    #about .container .desc {
+        font-size: 18px;
+        width: 95%
+    }
+
+    #about .container .underline {
+        width: 95%
+    }
+
+    #about .container #info {
+        width: 100%
+    }
+
+    #about .container #info #personal {
+        width: 42%;
+        margin-left: 90px;
+        margin-top: 20px
+    }
+
+    #about .container #info #personal p {
+        font-size: 17px
+    }
+}
+
+@media screen and (max-width: 769px) {
+    #main .img,#main .img-holder {
+        height:300px;
+        width: 300px
+    }
+
+    #main .text-holder .text2 {
+        font-size: 50px
+    }
+
+    #about .container .desc {
+        font-size: 16px;
+        width: 95%
+    }
+
+    #about .container .underline {
+        width: 95%
+    }
+
+    #about .container #info {
+        width: 100%
+    }
+
+    #about .container #info #personal {
+        width: 47%;
+        margin-left: 70px;
+        margin-top: 20px
+    }
+
+    #about .container #info #personal p {
+        font-size: 16px
+    }
+
+    #about .container #info #picture {
+        width: 30%;
+        padding-left: 50px
+    }
+
+    #contact .container #contact-wrap #form {
+        width: 90%
+    }
+}
+
+@media screen and (max-width: 601px) {
+    header #logo,header #nav ul {
+        text-align:center
+    }
+
+    header {
+        justify-content: center;
+        margin: 0 auto
+    }
+
+    header #logo,header #nav {
+        width: 100%
+    }
+
+    #about .container #info {
+        width: 100%;
+        justify-content: center
+    }
+
+    #about .container #info #personal {
+        width: 70%;
+        margin-top: 20px
+    }
+
+    #about .container #info #personal p {
+        font-size: 16px
+    }
+
+    #about .container #info #picture {
+        width: 50%;
+        padding: 0
+    }
+
+    #numbers .container #numb-wrap .numb i {
+        font-size: 35px
+    }
+
+    #numbers .container #numb-wrap .numb h2 {
+        font-size: 30px
+    }
+
+    #numbers .container #numb-wrap .numb h3,#projects .wrapper .container .project h4 {
+        font-size: 15px
+    }
+
+    #projects .wrapper .container .project h3 {
+        font-size: 25px
+    }
+}
+
+@media screen and (max-width: 481px) {
+    #main .text-holder,header #logo,header #nav ul {
+        text-align:center
+    }
+
+    #about .container .desc,#main .img-holder {
+        display: none
+    }
+
+    #main .text-holder {
+        align-items: center;
+        left: 0;
+        width: 100%
+    }
+
+    #main .text-holder .text2 {
+        font-size: 50px
+    }
+
+    header {
+        justify-content: center;
+        margin: 0 auto
+    }
+
+    header #logo,header #nav {
+        width: 100%
+    }
+
+    #numbers .container #numb-wrap .numb h3,header #nav ul li {
+        font-size: 20px
+    }
+
+    #about .container .desc1 {
+        display: inline-block;
+        color: #111;
+        width: 100%;
+        margin: 10px auto 0;
+        text-align: center;
+        font-weight: 700;
+        font-size: 17px
+    }
+
+    #about .container .desc1 span {
+        color: #e70139;
+        font-weight: 600
+    }
+
+    #about .container #info #personal {
+        width: 80%;
+        margin: 20px auto
+    }
+
+    #about .container #info #personal p {
+        font-size: 16px
+    }
+
+    #about .container #info #picture {
+        width: 50%;
+        padding: 0
+    }
+
+    #services .container #services-wrap .service h3 {
+        font-size: 25px
+    }
+
+    #services .container #services-wrap .service p {
+        font-size: 14px
+    }
+
+    #numbers .container #numb-wrap .numb {
+        width: 100%;
+        padding-bottom: 25px
+    }
+
+    #numbers .container #numb-wrap .numb i {
+        font-size: 40px
+    }
+
+    #numbers .container #numb-wrap .numb h2 {
+        font-size: 35px
+    }
+
+    #projects .wrapper .container .project {
+        width: 100%;
+        padding: 30px
+    }
+}
+
+@media screen and (max-width: 426px) {
+    header #nav {
+        width:100%
+    }
+
+    header #nav ul li {
+        font-size: 17px
+    }
+
+    #about .container .title,#contact .container h2,#numbers .container #numb-wrap .numb h2,#projects .wrapper h2,#services .container h2 {
+        font-size: 35px
+    }
+
+    #about .container .desc1 {
+        font-size: 15px
+    }
+
+    #about .container #info #personal p {
+        font-size: 13px;
+        margin-bottom: 3px
+    }
+
+    #numbers .container #numb-wrap .numb i,#services .container #services-wrap .service i {
+        font-size: 40px
+    }
+
+    #services .container #services-wrap .service h3 {
+        font-size: 23px
+    }
+
+    #services .container #services-wrap .service p {
+        font-size: 12px
+    }
+
+    #numbers .container #numb-wrap .numb {
+        width: 100%;
+        padding-bottom: 25px
+    }
+
+    #numbers .container #numb-wrap .numb h3 {
+        font-size: 20px
+    }
+}
+
+@media screen and (max-width: 376px) {
+    #about .container .title,#main .text-holder .text {
+        font-size:30px
+    }
+
+    #main .text-holder .text2 {
+        font-size: 40px
+    }
+
+    header #logo img {
+        width: 100px;
+        padding-bottom: 12px
+    }
+
+    #projects .wrapper .container .project h4,header #nav ul li {
+        font-size: 15px
+    }
+
+    #about .container .desc1 {
+        font-size: 13px
+    }
+
+    #about .container #info #personal p {
+        font-size: 11px;
+        font-weight: 700;
+        margin-bottom: 3px
+    }
+
+    #services .container #services-wrap {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center
+    }
+
+    #services .container #services-wrap .service {
+        width: 100%;
+        padding-bottom: 25px
+    }
+
+    #projects .wrapper .container .project h3 {
+        font-size: 20px
+    }
+
+    #footer .wrapper .copyright p {
+        font-size: 18px
+    }
+
+    #footer .wrapper .links ul li a i {
+        font-size: 22px
+    }
+}
+
+@media screen and (max-width: 321px) {
+    #main .text-holder .text {
+        font-size:28px
+    }
+
+    #main .text-holder .text2 {
+        font-size: 38px
+    }
+
+    #about .container .desc1,header #nav ul li {
+        font-size: 13px
+    }
+
+    #about .container .title,#services .container h2 {
+        font-size: 30px
+    }
+
+    #about .container #info #personal p {
+        font-size: 9px;
+        font-weight: 700;
+        margin-bottom: 3px
+    }
+}
